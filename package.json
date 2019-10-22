@@ -1,0 +1,30 @@
+{
+  "name": "minigame",
+  "version": "1.0.0",
+  "description": "wechat miniGame",
+  "main": "game.js",
+  "dependencies": {
+    "cz-conventional-changelog": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happyTIME-2/minigame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/happyTIME-2/minigame/issues"
+  },
+  "homepage": "https://github.com/happyTIME-2/minigame#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
