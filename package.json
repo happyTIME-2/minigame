@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "wechat miniGame",
   "main": "game.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "cz-conventional-changelog": "^3.0.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git-cz"
@@ -24,7 +24,7 @@
   "homepage": "https://github.com/happyTIME-2/minigame#readme",
   "config": {
     "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }
